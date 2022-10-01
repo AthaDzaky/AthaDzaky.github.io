@@ -1,0 +1,338 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body{
+    font: 16px/28px, arial, sans serif;
+    background-color: whitesmoke;
+}
+
+
+.container{
+    width: auto;
+    height: auto;
+    
+}
+.header .judul{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "poppins";
+    
+    
+}
+.header ul{
+    background-color: black;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+.header ul li{
+    display: inline-block;
+    font-family: "poppins";
+    margin-left: 20px;
+    
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+
+}
+.header a:hover{
+    color: #007aff;
+}
+
+/* css untuk tentang.html */
+.judul-tentang h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "poppins";
+    font-weight: normal;
+    margin-top: 20px;
+    
+}
+.logo {
+    display: block;
+    height: 218px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+  }
+.spek-tentang ul{
+    width: 270px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.spek-tentang li{
+    font-family: "poppins";
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* css untuk sejarah.html */
+.sejarah h1{
+    font-size: 50px;
+    font-family: "poppins";
+    font-weight: normal;
+    margin-left: 30%;
+    margin-right: auto;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-left: 30%;
+    margin-right: auto;
+    padding: 0;
+}
+
+.isi-sejarah p{
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: 200;
+    margin-left: 30%;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    white-space: normal;
+    
+}
+
+.judul-wisata{
+    padding: 50px;
+    font-size: 50px;
+    font-family: "poppins";
+    font-weight: normal;
+    margin-top: 20px;
+}
+.logo-wisata{
+    display: block;
+    height:  407px;
+    width: 555px;
+    margin-left: 200px;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.isi-wisata p{
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: 200;
+    padding: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    white-space: normal;
+}
+
+.isi2-wisata ul{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.isi2-wisata ul li{
+    font-family: "poppins";
+}
+
+/* css untuk kuliner.html */
+.kuliner h1{
+    font-size: 40px;
+    font-family: "poppins";
+    font-weight: normal;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+.kupangLontong h2{
+    font-size: 25px;
+    font-family: "poppins";
+    font-weight: normal;
+    padding: 20px;
+}
+
+.logo-kupang{
+    width: 358px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.kupangLontong p{
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: 200;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.sateKerang h2{
+    font-size: 25px;
+    font-family: "poppins";
+    font-weight: normal;
+    padding: 20px;
+}
+
+.logo-sate{
+    width: 358px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.sateKerang p{
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: 200;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.otakBandeng h2{
+    font-size: 25px;
+    font-family: "poppins";
+    font-weight: normal;
+    padding: 20px;
+}
+
+.logo-bandeng{
+    width: 358px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.otakBandeng p{
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: 200;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.lontongBalap h2{
+    font-size: 25px;
+    font-family: "poppins";
+    font-weight: normal;
+    padding: 20px;
+}
+
+.logo-lontong{
+    width: 358px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.lontongBalap p{
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: 200;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.petis h2{
+    font-size: 25px;
+    font-family: "poppins";
+    font-weight: normal;
+    padding: 20px;
+}
+
+.logo-petis{
+    width: 358px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.petis p{
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: 200;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* clear fix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

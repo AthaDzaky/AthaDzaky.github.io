@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body{
+    font: 16px/28px, arial, sans serif;
+    background-color: whitesmoke;
+}
+
+
+.container{
+    width: auto;
+    height: auto;
+    
+}
+.header .judul{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "poppins";
+    
+    
+}
+.header ul{
+    background-color: black;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+.header ul li{
+    display: inline-block;
+    font-family: "poppins";
+    margin-left: 20px;
+    
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+
+}
+.header a:hover{
+    color: #007aff;
+}
+
+.hero{
+    height: 726px;
+    width: 968px;
+    box-sizing: border-box;
+    float: left;
+
+    background-image: url(/asset/img/monumen.jpg);
+    background-size: cover;
+    background-position: 0, 0;
+}
+
+.main{
+    height: 725px;
+    width: 475px;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 286px;
+}
+.main h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: "poppins";
+    font-size: 40px;
+}
+.main p{
+    margin-left: 25px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: "poppins";
+    font-size: 35px;
+}
+
+
+
+/* clear fix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
